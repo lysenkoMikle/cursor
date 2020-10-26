@@ -8,32 +8,6 @@ const rub = document.getElementById('rub');
 const content = document.getElementsByClassName('content');
 const error = document.getElementsByClassName('error');
 
-//controlPrice = () => {
-    // if (currency > 26) return;
-    // else if (currency < 26 && currency > 23) {
-    //     currency = 26;
-    //     console.log(currency);
-    // }
-    // else if (currency < 23 || currency === 23) {
-
-    //     content[0].style.display = 'none';
-    //     error[0].style.display = 'block';
-
-    // }
-/*switch (true) {
-        case currency > 26:
-            return;
-            break;
-        case currency < 26 && currency > 23:
-            currency = 26;
-            break;
-        case currency < 23 || currency === 23:
-            content[0].style.display = 'none';
-            error[0].style.display = 'block';
-            break;
-    }    
-}*/
-//controlPrice();
 const usdBuy = 1 * u;
 const euroBuy = 1 * e;
 const rubBuy = 1 * r;
